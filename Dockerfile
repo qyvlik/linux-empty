@@ -8,8 +8,6 @@ RUN git clone https://git.code.sf.net/p/empty/code /empty
 
 RUN make all
 
-RUN ls -lah
-
 FROM alpine:3.11
 
 VOLUME /tmp
